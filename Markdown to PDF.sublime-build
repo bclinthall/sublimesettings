@@ -1,0 +1,4 @@
+{
+    "shell_cmd": "pandoc -o \"$file.pdf\" \"$file\" && xdg-open \"$file.pdf\"",
+    "selector": "text.html.markdown",
+}
